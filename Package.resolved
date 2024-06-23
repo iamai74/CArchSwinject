@@ -3,10 +3,10 @@
     {
       "identity" : "carch",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ayham-achami/CArch.git",
+      "location" : "https://github.com/iamai74/CArch.git",
       "state" : {
-        "revision" : "99aa2c499a810b2de887f4ba2c558c5890446574",
-        "version" : "3.0.1"
+        "branch" : "feature/add_macos_support",
+        "revision" : "5c84149a73e6502b7544ba0beaf687de6f926e40"
       }
     },
     {
