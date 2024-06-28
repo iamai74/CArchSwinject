@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/iamai74/CArch.git",
       "state" : {
-        "branch" : "30ba114",
-        "revision" : "30ba114f2617c73c18bf222984fa4d660cb8b0b0"
+        "branch" : "feature/add_macos_support",
+        "revision" : "d30c0ec0c3575d0af25392d4977c62df2b61134c"
       }
     },
     {
