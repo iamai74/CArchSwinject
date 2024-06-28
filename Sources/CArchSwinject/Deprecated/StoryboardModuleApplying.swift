@@ -2,6 +2,7 @@
 //  StoryboardModuleApplying.swift
 //
 
+#if canImport(UIKit)
 import CArch
 import Swinject
 
@@ -26,3 +27,4 @@ class StoryboardModuleApplying: Assembly {
         moduleAssembly.registerRouter(in: container)
     }
 }
+#endif

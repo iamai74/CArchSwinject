@@ -2,6 +2,7 @@
 //  StoryboardDIAssemblyFactory.swift
 //
 
+#if canImport(UIKit)
 import CArch
 import Foundation
 import Swinject
@@ -63,3 +64,4 @@ extension SwinjectStoryboard {
         StoryboardAssemblyFactory.perform(#selector(setup))
     }
 }
+#endif

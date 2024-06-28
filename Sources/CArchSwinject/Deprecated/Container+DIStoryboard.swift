@@ -2,6 +2,7 @@
 //  Container+DIStoryboard.swift
 //
 
+#if canImport(UIKit)
 import CArch
 import Swinject
 import SwinjectStoryboard
@@ -21,3 +22,4 @@ extension Container: DIStoryboard {
         }
     }
 }
+#endif
