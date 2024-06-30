@@ -12,7 +12,7 @@ public final class LayoutAssemblyFactory: LayoutDIAssemblyFactory {
         Container.loggingFunction = isDebugEnabled ? { print($0) } : nil
     }
     
-    static var provider: SwinjectProvider!
+    static var provider = SwinjectProvider()
     
     public var layoutContainer: DIContainer {
         Self.provider.container
